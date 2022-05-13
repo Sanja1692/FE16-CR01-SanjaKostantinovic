@@ -21,8 +21,23 @@ html {
 }
 
 input {
-    width: 50%;
+    width: 65%;
     height: 2em;
+    position: absolute;
+    top: 10px;
+    right: 250px;
+}
+
+#lbutton {
+    position: absolute;
+    top: 5px;
+    right: 130px;
+}
+
+#sbutton {
+    position: absolute;
+    top: 5px;
+    right: 10px;
 }
 
 .danger {
@@ -119,7 +134,6 @@ div p {
     position: relative;
     bottom: 20px;
     left: 20%;
-    /* transform: translate(-50%, -50%); */
 }
 
 #right {
@@ -133,13 +147,6 @@ div p {
 hr {
     width: 80%
 }
-
-
-/* .pos {
-    position: relative;
-    top: 170px;
-    left: 70px;
-} */
 
 footer {
     background-color: black;
